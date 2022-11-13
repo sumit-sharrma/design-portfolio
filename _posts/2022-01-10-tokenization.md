@@ -9,7 +9,7 @@ thumb: /img/thumb/tokenization.png
 ---
 
 <div class="hero-block">
-    <img src="/img/thumb/tokenization.png" alt="Europa hero image" />
+    <img src="{{ site.url }}{{ site.baseurl }}/img/thumb/tokenization.png" alt="Europa hero image" />
 </div>
 
 ### What are Tokens?
@@ -36,12 +36,12 @@ Design tokens help you reach:
 Tokens forms the base for your Atoms which gives you the power to add/edit/upgrade any atom, molecule, organism etc.
 
 <div class="post-section-img">
-    <img src="/img/thumb/tokens.png" alt=""/>
+    <img src="{{ site.url }}{{ site.baseurl }}/img/thumb/tokens.png" alt=""/>
 </div>
 
 #### Example
 <div class="post-section-img">
-    <img src="/img/thumb/component-token.png" alt=""/>
+    <img src="{{ site.url }}{{ site.baseurl }}/img/thumb/component-token.png" alt=""/>
 </div>
 
 ### Current practice
@@ -75,19 +75,19 @@ Using a combination of <a href="https://www.figma.com/community/plugin/843461159
 
 #### How?
 <div class="post-section-img">
-    <img src="/img/thumb/figma-tokens-structure.png" alt=""/>
+    <img src="{{ site.url }}{{ site.baseurl }}/img/thumb/figma-tokens-structure.png" alt=""/>
 </div>
 
 #### Steps
 - Install &nbsp;<a href="https://www.figma.com/community/plugin/843461159747178978" target=_blank>Figma Tokens Plugin</a>
 - Populate the entries in the plugin
 <div class="post-section-img">
-    <img src="/img/thumb/figma-tokens-entries.png" alt=""/>
+    <img src="{{ site.url }}{{ site.baseurl }}/img/thumb/figma-tokens-entries.png" alt=""/>
 </div>
 - Head to the settings section and go to GitHub tab
 - Enter the Github details of the repository where you want to push the code to, this is a little technical. You can take take help from your developers. 
 <div class="post-section-img">
-    <img src="/img/thumb/figma-tokens-github.png" alt=""/>
+    <img src="{{ site.url }}{{ site.baseurl }}/img/thumb/figma-tokens-github.png" alt=""/>
 </div>
 - Done, You just automated the Process!!
 
