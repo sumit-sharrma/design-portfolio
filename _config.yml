@@ -43,6 +43,7 @@ kramdown:
   syntax_highlighter: rouge
 
 google_analytics: "G-474P1GNEM9"
+google_tag_manager: "GTM-54W357T"
 
 exclude:
   - .jekyll-cache
