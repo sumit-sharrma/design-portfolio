@@ -1,0 +1,109 @@
+site: Sumit Sharma
+title: Sumit Sharma
+greetings: Hi 👋
+description: >-
+  Sumit Sharma: A Product designer for Design Systems
+lang: en
+image: https://res.cloudinary.com/notee/image/upload/v1640411291/notes/imgseo.jpg
+timezone: Asia/Kolkata
+repo: https://github.com/sumit-sharrma # site repo [optional]
+data-theme: light # default theme "dark" | "light"
+discus-identifier: webthme
+default-thumb: https://res.cloudinary.com/notee/image/upload/v1640412257/notes/default-thumb.webp
+
+author:
+  name: Sumit Sharma
+  url: https://notes.sumit.space/
+  bio: just ordinary boy interest in software development
+  avatar: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1667323476/sumit_kkvcak.jpg
+  username: sumit # general username
+  github: sumit # github username
+  twitter: sumit_sharrma # twitter username
+  email: sumitsp04@gmail.com@ # email adress
+
+twitter:
+  username: sumit_sharrma
+  card: summary_large_image
+
+# Font Settings
+# googlewebfonts: Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap
+
+# URL settings
+#url: "https://github.com/sumit-sharrma" # Domain Name of host. [username].github.io for github pages
+#baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+#permalink: pretty
+
+# local
+url: "http://localhost:4000" #
+baseurl: "" #
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+google_analytics: "G-474P1GNEM9"
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: style
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug/
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      image: https://res.cloudinary.com/notee/image/upload/v1640411291/notes/imgseo.jpg
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+relative_links:
+  enabled: true
+  collections: false

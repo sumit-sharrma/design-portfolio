@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{% include prohead.html %}
+
+<div class="bio">
+  <span class="bio-caption">Hello/Namaste</span>
+  <h2 class="bio-head-sub">I, Sumit Sharma, am currently working as a UX engineer for Jupiter Money.</h2>
+  <h2 class="bio-head-sub">I am leading the efforts on their design system with the creation of high- and low-level components, design patterns, and execution planning with the current code base.</h2>
+  <span class="bio-span">a designer, thinker and a developer &lt;/&gt;</span>
+  <!-- <p class="anilink">
+    <a href="{{ site.url }}{{ site.baseurl }}/tag/">👉categories</a>
+    <br>
+    <a href="{{ site.url }}{{ site.baseurl }}/authors/">👉all authors</a>
+    <br>
+    <a href="{{ site.url }}{{ site.baseurl }}/notes/">👉all notes</a>
+    <br>
+    <a href="{{ site.url }}{{ site.baseurl }}/archive/">👉archives</a>
+    <br>
+    <a href="https://umami.aliif.space/share/PcrCbVCl/cnotes" target="_blank" rel="noopener noreferrer">👉analytics</a>
+    </p> -->
+</div>
+
+<p class="project-head">The Chosen ones 👻</p>
+
+<div class="card-list oi" id="Blog">
+  {% for post in site.posts limit:6 %}
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <div class="card-wrapper">
+      <div class="background"></div>
+      <img
+        class="image lazyload"
+        src="{{ site.url }}{{ site.baseurl }}/img/placeholder.svg"
+        data-src="{% if post.thumb %} {{ site.url }}{{ site.baseurl }}{{ post.thumb }} {% else %} {{ site.default-thumb }} {% endif %}"
+        alt="{{ post.title }}"
+      />
+      <div class="kepala">
+        <h1 class="judul">{{ post.title }}</h1>
+        <p>{{ post.description }}</p>
+      </div>
+      <!-- <div class="footer p-24">
+        {% assign minute=post.content | number_of_words | divided_by: 265 |
+        plus: 1 %}<small datetime="{{ post.date | date_to_xmlschema }}"
+          >{{ post.date | date: "%d %b, %y" }} - {% if post.minute %} {{
+          post.minute }} {% else %} {{ minute }} {% endif %} min Read</small
+        >
+      </div> -->
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<!-- <a class="soft-button" href="{{ site.url }}{{ site.baseurl }}/blog/" style="display: flex;align-items: center;">
+    <span>See all posts</span>
+    <svg xmlns="http://www.w3.org/2000/svg" style="height: 18px;margin-left: 7px;" fill="none" viewBox="0 0 24 24" stroke="var(--main-text-color)"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</a> -->
