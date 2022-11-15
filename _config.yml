@@ -2,7 +2,7 @@ site: Sumit Sharma
 title: Sumit Sharma
 greetings: Hi 👋
 description: >-
-  Sumit Sharma: A Product designer for Design Systems
+  Hello, I am Sumit Sharma. A Product designer for Design Systems currently working at Jupiter Money
 lang: en
 image: https://res.cloudinary.com/notee/image/upload/v1640411291/notes/imgseo.jpg
 timezone: Asia/Kolkata
@@ -30,12 +30,29 @@ twitter:
 
 # URL settings
 url: "https://sumit-sharrma.github.io" # Domain Name of host. [username].github.io for github pages
-baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+# baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
 # local
 # url: "http://localhost:4000" #
 # baseurl: "" #
+
+# webp images
+# Europa 2.0
+europa:
+  bg: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454344/Portfolio/europa-bg_b642sb.webp
+  audit-1: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668452183/Portfolio/audit-1_iosrea.webp
+  audit-2: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668453201/Portfolio/audit-2_ltphog.webp
+  colors: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454344/Portfolio/colors_fyii0y.webp
+  color-palette: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668453200/Portfolio/color-palette_ahvs03.webp
+  typography: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454343/Portfolio/typography_oumigr.webp
+  spacing: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454343/Portfolio/spacing_tgcyyb.webp
+  icons: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454343/Portfolio/icons_wwbhgc.webp
+  button: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454939/Portfolio/button_u737fq.webp
+  form: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454940/Portfolio/form_odo7fq.webp
+  other-comp: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454940/Portfolio/other-comp_vwtabw.webp
+  documentation: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454940/Portfolio/documentation_dvo1zg.webp
+
 
 markdown: kramdown
 kramdown:
