@@ -1,10 +1,10 @@
 site: Sumit Sharma
-title: Sumit Sharma
+title: Sumit Sharma - A Product Designer for Design Systems
 greetings: Hi 👋
 description: >-
   Hello, I am Sumit Sharma. A Product designer for Design Systems currently working at Jupiter Money
 lang: en
-image: https://res.cloudinary.com/notee/image/upload/v1640411291/notes/imgseo.jpg
+image: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1669559669/Portfolio/og_zr3bcq.webp
 timezone: Asia/Kolkata
 repo: https://github.com/sumit-sharrma # site repo [optional]
 data-theme: light # default theme "dark" | "light"
@@ -115,7 +115,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://res.cloudinary.com/notee/image/upload/v1640411291/notes/imgseo.jpg
+      image: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1669559669/Portfolio/og_zr3bcq.webp
   - scope:
       path: ""
       type: "authors"
