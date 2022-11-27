@@ -13,29 +13,30 @@ default-thumb: https://res.cloudinary.com/notee/image/upload/v1640412257/notes/d
 
 author:
   name: Sumit Sharma
-  url: https://notes.sumit.space/
-  bio: just ordinary boy interest in software development
+  url: https://designerwhocode.com/
+  bio: Sumit Sharma - A Product Designer for Design Systems
   avatar: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1667323476/sumit_kkvcak.jpg
-  username: sumit # general username
-  github: sumit # github username
+  username: sumit_sharrma # general username
+  github: sumit-sharrma # github username
   twitter: sumit_sharrma # twitter username
-  email: sumitsp04@gmail.com@ # email adress
+  email: sumitsp04@gmail.com # email adress
 
 twitter:
   username: sumit_sharrma
   card: summary_large_image
+  description: Hello, I am Sumit Sharma. A Product designer for Design Systems currently working at Jupiter Money
 
 # Font Settings
 # googlewebfonts: Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap
 
 # URL settings
-url: "https://sumit-sharrma.github.io" # Domain Name of host. [username].github.io for github pages
+# url: "https://sumit-sharrma.github.io" # Domain Name of host. [username].github.io for github pages
 # baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
-permalink: pretty
+# permalink: pretty
 
 # local
-# url: "http://localhost:4000" #
-# baseurl: "" #
+url: "http://localhost:4000" #
+baseurl: "" #
 
 # webp images
 # Europa 2.0
