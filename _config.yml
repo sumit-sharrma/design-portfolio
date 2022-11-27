@@ -35,8 +35,8 @@ twitter:
 # permalink: pretty
 
 # URL settings {Prod}
-url: "https://www.designerwhocode.com/" # Domain Name of host. [username].github.io for github pages
-baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+url: "https://www.designerwhocode.com" # Domain Name of host. [username].github.io for github pages
+# baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
 # local
