@@ -43,21 +43,23 @@ After consulting other designers and conducting research, I decided to try a new
 When building a component, you need to think about quality, the design of the component, and also the needs of the product and how you're going to use it. Practice and collaboration help to make the process more interesting, rich, and effective. The process I used at Jupiter Money is based on what I've learned with <a href="https://medium.com/eightshapes-llc/system-features-step-by-step-e69c90982630" target="_blank">this article</a> from the Nathan Curtis, from EightShapes, <a href="https://atomicdesign.bradfrost.com/chapter-2/" target="_blank">Atomic Methodology</a> by Brad Frost and whatever I have learned till now.
 
 Here are the steps:
-1. Plan & Discover
+
+
+#### Plan & Discover
  - Definition of scope
  - Component research and auditing
- 
-2. Design
+
+#### Design
  - Explorations and reviews
  - Accessibility research (this one phase happens during the previous one)
 
-3. Build
+#### Build
  - Design Specs and Figma component build
 
-4. Documentation
+#### Documentation
  - Usage guidelines and documentation
 
-5. Ship it!
+#### Ship it!
  - Publish component in Figma and repository
  - Release notes and communicate
 
