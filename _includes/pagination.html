@@ -1,9 +1,9 @@
 <div class="pagination">
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
-			<a class="prev" href="/">< Previous</a>
+			<a class="prev" href="/"> Previous</a>
 		{% else %}
-			<a class="prev" href="/page/{{ paginator.previous_page }}/">< Newer</i></a>
+			<a class="prev" href="/page/{{ paginator.previous_page }}/"> Newer</i></a>
 		{% endif %}
 	{% endif %}
 	{% if paginator.previous_page or paginator.next_page %}

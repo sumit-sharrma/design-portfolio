@@ -33,25 +33,22 @@ layout: default
 
 <nav class="post-nav">
   {% if page.previous %}
-  <a
-    class="post-nav-item post-nav-prev"
-    href="{{ page.previous | relative_url }}"
-  >
-    <h5 class="nav-arrow">Previous</h5>
+  <a class="post-nav-item post-nav-prev" href="{{ page.previous | relative_url }}">
+    <h5 class="nav-arrow">Next</h5>
     <p class="post-title">{{ page.previous.title }}</p>
   </a>
   {% endif %} {% if page.next %}
   <a class="post-nav-item post-nav-next" href="{{ page.next | relative_url }}">
-    <h5 class="nav-arrow">Next</h5>
+    <h5 class="nav-arrow">Previous</h5>
     <p class="post-title">{{ page.next.title }}</p>
   </a>
   {% endif %}
 </nav>
 
-<script
+<!-- <script
   defer
   src="{{ site.url }}{{ site.baseurl }}/assets/js/applause-button.js"
-></script>
+></script> -->
 
 {% assign gambar = page.content %} {% if gambar contains '<img> ' %}
 <script defer src="{{ site.url }}{{ site.baseurl }}/assets/js/zoom-image.js"></script>

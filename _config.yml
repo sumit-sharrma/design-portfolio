@@ -82,6 +82,18 @@ tokenization:
   tokens-entry: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1669623231/Portfolio/figma-tokens-entries_clztrx.webp
   tokens-github: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1669623231/Portfolio/figma-tokens-github_kifwd8.webp
 
+# Input Component
+input:
+  bg: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681926724/input-bg_lzeke3.png
+  process: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681925825/process_e2kwox.gif
+  inconsistent: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681925476/inconsistent-input_wvpbco.webp
+  explore: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681925475/explore-input_ar0zzm.webp
+  access: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681925475/access-input_omezkv.webp
+  figma-property: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681926080/property-input_aqxmlr.webp
+  anatomy: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681925475/anatomy-input_bg5d8j.webp
+  technical-doc: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681926081/tech-prop-input_odp0ge.webp
+  general-doc: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681925476/doc-input_j5dx3d.webp
+  final: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1681925475/final-input_i7lv1w.webp
 
 markdown: kramdown
 kramdown:
