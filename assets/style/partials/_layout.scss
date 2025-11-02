@@ -184,3 +184,37 @@ body {
   line-height: 1.75;
   color: var(--main-text-color);
 }
+
+table{
+  border: 1px solid var(--col-BFC0C0);
+  border-radius: 4px;
+
+  th{
+    font-size: 1.6rem;
+    background-color: var(--code-bg-color);
+    border-bottom: 1px solid var(--col-BFC0C0);
+
+    &:not(:last-child){
+      border-right: 1px solid var(--col-BFC0C0);  
+    }
+  }
+
+  tr{
+    border-bottom: 1px solid;
+
+    &:not(:last-child){
+      td{
+        border-bottom: 1px solid;
+      }
+    }
+      td{
+      padding: 8px;
+      font-size: 1.4rem;
+      color: var(--col-BFC0C0);
+
+      &:not(:last-child){
+        border-right: 1px solid var(--col-BFC0C0);
+      }
+    }
+  }
+}
