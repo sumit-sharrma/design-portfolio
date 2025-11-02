@@ -30,9 +30,9 @@ twitter:
 # googlewebfonts: Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap
 
 # URL settings {Staging}
-url: "https://sumit-sharrma.github.io" # Domain Name of host. [username].github.io for github pages
+# url: "https://sumit-sharrma.github.io" # Domain Name of host. [username].github.io for github pages
 # baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
-permalink: pretty
+# permalink: pretty
 
 # URL settings {Prod}
 # url: "https://www.designerwhocode.com" # Domain Name of host. [username].github.io for github pages
@@ -40,10 +40,29 @@ permalink: pretty
 # permalink: pretty
 
 # local
-# url: "http://localhost:4000" #
-# baseurl: "" #
+url: "http://localhost:4000" #
+baseurl: "" #
 
 # webp images
+
+#PDS
+
+pds:
+  bg: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762085744/PDS-Hero_irco13.webp
+  Issue-1: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762085873/Issue-1_qhkmb1.webp
+  Issue-2: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086160/Issue-2_kevhmz.webp
+  Issue-3: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086159/Issue-3_knadv4.webp 
+  Issue-4: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086159/Issue-4_ejyvnj.webp
+  Outcome-before: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086160/Outcome-before_q0qkd3.webp
+  Outcome-after: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086160/Outcome-after_rd9bkx.webp
+  Outcome-after-1: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086159/Outcome-after-1_r4fl1p.webp
+  Outcome-after-2: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086160/Outcome-after-2_obm39y.webp
+  Before-after: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086698/Before-v-after_hupy5r.webp
+  Removed: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086805/Removed_i3b9mu.webp
+  Rollout: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762086161/rollout_u2fesf.webp
+
+
+
 # Europa 2.0
 europa:
   bg: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1668454344/Portfolio/europa-bg_b642sb.webp
