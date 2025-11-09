@@ -30,20 +30,30 @@ twitter:
 # googlewebfonts: Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap
 
 # URL settings {Staging}
-# url: "https://sumit-sharrma.github.io" # Domain Name of host. [username].github.io for github pages
-# baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+url: "https://sumit-sharrma.github.io" # Domain Name of host. [username].github.io for github pages
+baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 # permalink: pretty
 
 # URL settings {Prod}
-url: "https://www.designerwhocode.com" # Domain Name of host. [username].github.io for github pages
+# url: "https://www.designerwhocode.com" # Domain Name of host. [username].github.io for github pages
 # baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
 # local
 # url: "http://localhost:4000" #
-# baseurl: "" #
+baseurl: "" #
+# To build: bundle exec jekyll serve
+# To compile scss: Click watch sass on bottom right
 
 # webp images
+
+#Overview
+overview:
+  bg: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762708374/Overview-Hero_etugt7.webp
+  flow: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762708374/bot-flow_zrxsoh.webp
+  feedback-1: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762708375/Feedback-1_qeaodg.webp
+  feedback-2: https://res.cloudinary.com/dcx5qfzvy/image/upload/v1762708375/Feedback-2_h1kzzn.webp
+
 
 #PDS
 

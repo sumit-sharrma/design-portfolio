@@ -190,7 +190,6 @@ b {
 .post ul li {
   font-size: 1.6rem;
   align-items: center;
-  display: flex;
   margin-bottom: 0.5rem;
   position: relative;
   color: var(--medium-text-color);
@@ -206,7 +205,7 @@ b {
   width: 6px;
   height: 6px;
   left: -16px;
-  top: 16px;
+  top: 12px;
   background-color: var(--primary);
   border-radius: 50%;
 }
@@ -300,7 +299,7 @@ time {
 
 .post blockquote p {
   margin: 0;
-  font-size: var(--font-large);
+  font-size: var(--font-default);
   font-family: var(--serif);
   font-style: normal;
   font-weight: var(--font-weight-semibold);
